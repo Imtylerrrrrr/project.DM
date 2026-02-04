@@ -8,15 +8,14 @@ body {
 }
 
 #wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    height: 7000px;
     width: 720px;
-    flex-direction: column;
 }
 
-footer {
+#chat-wrap {
+    position: fixed; /* 화면에 고정 */
+    bottom: 50px; /* 화면의 아래쪽에 위치 */
+    width: 100%; /* 너비를 화면 전체로 설정 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,4 +56,9 @@ footer {
 
 #message-input:focus {
     outline: none;
+}
+
+.user-message-div{
+    text-align: right;
+    margin: 10px 0 10px 0;
 }
